@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 03 - Color Models & Opacity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Color Models & Opacity Demonstration</h1>
+
+    <!-- لوحة الألوان (Color Swatches) -->
+    <section class="palette">
+        <div class="swatch named">Named: Crimson</div>
+        <div class="swatch hex">HEX: #3498db</div>
+        <div class="swatch rgb">RGB: rgb(46, 204, 113)</div>
+        <div class="swatch rgba">RGBA: rgba(155, 89, 182, 0.7)</div>
+    </section>
+
+    <hr>
+
+    <!-- مقارنة بين Opacity و RGBA -->
+    <section class="comparison-container">
+        <!-- 1. استخدام Opacity -->
+        <div class="box opacity-box">
+            <p>Using <strong>opacity: 0.5</strong> (Fades children too)</p>
+        </div>
+
+        <!-- 2. استخدام RGBA -->
+        <div class="box rgba-box">
+            <p>Using <strong>rgba()</strong> (Isolates background transparency)</p>
+        </div>
+    </section>
+</body>
+</html>

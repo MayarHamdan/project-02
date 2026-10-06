@@ -1,0 +1,44 @@
+/* تطبيق Universal Reset المطلوبة */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.box {
+    width: 300px;
+    padding: 25px;
+    border: 8px solid #2c3e50;
+    color: white;
+    text-align: left;
+}
+
+/* 1. نموذج Content-Box التقليدي */
+.content-box-demo {
+    box-sizing: content-box;
+    background-color: #e74c3c;
+}
+
+/* 2. نموذج Border-Box الحديث والذي يمتص الـ padding والـ border */
+.border-box-demo {
+    box-sizing: border-box;
+    background-color: #27ae60;
+}

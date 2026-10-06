@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.palette {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.swatch {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* 1. Named Color */
+.named {
+    background-color: crimson;
+}
+
+/* 2. HEX Color */
+.hex {
+    background-color: #3498db;
+}
+
+/* 3. RGB Color */
+.rgb {
+    background-color: rgb(46, 204, 113);
+}
+
+/* 4. RGBA Color */
+.rgba {
+    background-color: rgba(155, 89, 182, 0.7);
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.comparison-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 250px;
+    padding: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid #333;
+}
+
+/* تأثير الـ Opacity: يؤثر على الخلفية والنص معاً (يصبح النص باهتاً أيضاً) */
+.opacity-box {
+    background-color: #e74c3c;
+    opacity: 0.5;
+    color: black;
+}
+
+/* تأثير الـ RGBA: يؤثر على الخلفية وحدها، ويبقى النص واضحاً تماماً */
+.rgba-box {
+    background-color: rgba(231, 76, 60, 0.5);
+    color: black;
+}
