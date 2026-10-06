@@ -67,14 +67,12 @@ hr {
     border: 2px solid #333;
 }
 
-/* تأثير الـ Opacity: يؤثر على الخلفية والنص معاً (يصبح النص باهتاً أيضاً) */
 .opacity-box {
     background-color: #e74c3c;
     opacity: 0.5;
     color: black;
 }
 
-/* تأثير الـ RGBA: يؤثر على الخلفية وحدها، ويبقى النص واضحاً تماماً */
 .rgba-box {
     background-color: rgba(231, 76, 60, 0.5);
     color: black;
