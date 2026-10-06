@@ -1,12 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-top: 80px; /* لترك مساحة للشريط المثبت في الأعلى */
+    padding-top: 80px; 
     background-color: #f4f4f9;
-    height: 150vh; /* لتفعيل التمرير ورؤية الـ fixed elements */
+    height: 150vh; 
 }
 
-/* 1. شريط التنقل المثبت (Fixed) */
 .fixed-nav {
     position: fixed;
     top: 0;
@@ -33,7 +32,6 @@ body {
     margin: 0 auto;
 }
 
-/* 2. حاوية البطاقة (Relative) لتكون مرجعاً للعنصر المطلق بداخلهتا */
 .relative-card {
     position: relative;
     background-color: #ffffff;
@@ -42,7 +40,6 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* 3. شارة الإشعار (Absolute) متمركزة داخل الكارت */
 .absolute-badge {
     position: absolute;
     top: 15px;
@@ -54,7 +51,6 @@ body {
     border-radius: 4px;
 }
 
-/* 4. زر العودة للأعلى الثابت في أسفل اليمين (Fixed) */
 .fixed-top-btn {
     position: fixed;
     bottom: 20px;
