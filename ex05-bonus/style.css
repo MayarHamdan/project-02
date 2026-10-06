@@ -22,7 +22,6 @@ body {
     margin: 0 auto 15px auto;
 }
 
-/* تعريف حركة الدوران المستمرة */
 @keyframes spin {
     0% {
         transform: rotate(0deg);
