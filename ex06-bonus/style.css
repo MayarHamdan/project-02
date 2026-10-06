@@ -19,11 +19,9 @@ body {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     width: 320px;
     text-align: center;
-    /* تطبيق الانتقال السلس */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* تأثير الـ Hover على الكارت */
 .interactive-card:hover {
     transform: translateY(-8px) scale(1.05);
     box-shadow: 0 12px 20px rgba(0,0,0,0.15);
@@ -48,7 +46,6 @@ body {
     font-size: 14px;
     border-radius: 6px;
     cursor: pointer;
-    /* تطبيق الانتقال السلس للزر أيضاً */
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
